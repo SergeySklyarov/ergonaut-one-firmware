@@ -36,7 +36,7 @@ layers:
   - .
   - /
   - {t: \, h: Alt}
-  - {t: ↹, h: lower}
+  - lower
   - ␣
   - {t: ENTER, h: raise}
   - {t: ENTER, h: lower}
@@ -67,7 +67,7 @@ layers:
   - (
   - )
   - PAGE DOWN
-  - ''
+  - {t: ▽, type: trans}
   - ''
   - ''
   - ''
