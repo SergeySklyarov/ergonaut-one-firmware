@@ -36,12 +36,12 @@ layers:
   - .
   - /
   - {t: \, h: Alt}
-  - {t: lower, h: toggle}
+  - {t: ↹, h: lower}
   - ␣
-  - ENTER
-  - ENTER
+  - {t: ENTER, h: raise}
+  - {t: ENTER, h: lower}
   - ␣
-  - {t: raise, h: toggle}
+  - {t: DELETE, h: raise}
   lower:
   - {t: F1, h: Gui}
   - '1'
@@ -79,7 +79,7 @@ layers:
   - '9'
   - '0'
   - Alt
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -124,7 +124,7 @@ layers:
   - Alt
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -165,9 +165,9 @@ layers:
   - ''
   - ''
   - Reset
-  - {t: ▽, type: trans}
+  - {type: held}
   - ''
-  - {t: ▽, type: trans}
+  - {type: held}
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
