@@ -72,13 +72,13 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - Home
   - UP ARROW
   - ''
   - ''
-  - ''
-  - ''
-  - ''
+  - '{'
+  - '}'
+  - End
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
