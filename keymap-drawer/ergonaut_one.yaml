@@ -12,7 +12,7 @@ layers:
   - O
   - P
   - BACKSPACE
-  - LSHIFT
+  - {t: ↹, h: LSHIFT}
   - A
   - S
   - D
@@ -43,31 +43,7 @@ layers:
   - ␣
   - {t: DELETE, h: raise}
   lower:
-  - {t: F1, h: Gui}
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - F7
-  - F8
-  - F9
-  - F10
-  - F11
-  - F12
-  - {t: +, h: Ctrl}
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - (
-  - )
-  - {t: '-', h: Ctrl}
-  - {t: '=', h: Alt}
+  - ''
   - '1'
   - '2'
   - '3'
@@ -78,13 +54,37 @@ layers:
   - '8'
   - '9'
   - '0'
-  - Alt
+  - PAGE UP
+  - {t: ▽, type: trans}
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
+  - PAGE DOWN
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - UP ARROW
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
   raise:
   - {t: KP NUM, h: Gui}
   - KP SLASH
