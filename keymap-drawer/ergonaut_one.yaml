@@ -68,14 +68,14 @@ layers:
   - )
   - PAGE DOWN
   - {t: ▽, type: trans}
-  - '-'
-  - '='
+  - ''
+  - ''
   - ''
   - ''
   - Home
   - UP ARROW
-  - ''
-  - ''
+  - '-'
+  - '='
   - '{'
   - '}'
   - End
