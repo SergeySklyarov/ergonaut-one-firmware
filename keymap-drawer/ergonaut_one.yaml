@@ -68,8 +68,8 @@ layers:
   - )
   - PAGE DOWN
   - {t: ▽, type: trans}
-  - ''
-  - ''
+  - '-'
+  - '='
   - ''
   - ''
   - Home
@@ -111,7 +111,7 @@ layers:
   - ''
   - PRINTSCREEN
   - Alt
-  - ''
+  - LEFT GUI
   - ''
   - ''
   - ''
