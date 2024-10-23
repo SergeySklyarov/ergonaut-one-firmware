@@ -76,8 +76,8 @@ layers:
   - UP ARROW
   - '-'
   - '='
-  - '{'
-  - '}'
+  - '['
+  - ']'
   - End
   - {type: held}
   - {t: ▽, type: trans}
@@ -171,3 +171,6 @@ layers:
   - {t: ▽, type: trans}
   - ''
   - {t: ▽, type: trans}
+combos:
+- p: [38, 41]
+  k: {t: raise, h: toggle}

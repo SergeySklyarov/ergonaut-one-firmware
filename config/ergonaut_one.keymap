@@ -21,6 +21,15 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        toggle_layer_raise_layer {
+            bindings = <&tog 2>;
+            key-positions = <38 41>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -35,9 +44,9 @@
 
         lower_layer {
             bindings = <
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5     &kp NUMBER_6    &kp N7          &kp N8           &kp N9          &kp N0           &kp PAGE_UP
-&trans  &kp EXCL      &kp AT        &kp HASH      &kp DLLR      &kp PRCNT  &kp CARET       &kp AMPS        &kp STAR         &kp LPAR        &kp RPAR         &kp PAGE_DOWN
-&trans  &none         &none         &none         &none         &kp HOME   &kp UP_ARROW    &kp MINUS       &kp EQUAL        &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp END
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5     &kp NUMBER_6    &kp N7          &kp N8           &kp N9            &kp N0             &kp PAGE_UP
+&trans  &kp EXCL      &kp AT        &kp HASH      &kp DLLR      &kp PRCNT  &kp CARET       &kp AMPS        &kp STAR         &kp LPAR          &kp RPAR           &kp PAGE_DOWN
+&trans  &none         &none         &none         &none         &kp HOME   &kp UP_ARROW    &kp MINUS       &kp EQUAL        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp END
                                     &trans        &trans        &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
             >;
         };
